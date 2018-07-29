@@ -1,0 +1,319 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:frequenzweiche_ITA-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L INDUCTOR L1
+U 1 1 57FB6889
+P 1800 800
+F 0 "L1" V 1750 800 50  0000 C CNN
+F 1 "3.3mH" V 1900 800 50  0000 C CNN
+F 2 "footprint_library:L_HQ43_3.3_095" H 1800 800 50  0001 C CNN
+F 3 "" H 1800 800 50  0000 C CNN
+	1    1800 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 57FB690E
+P 2700 800
+F 0 "L2" V 2650 800 50  0000 C CNN
+F 1 "1.2mH" V 2800 800 50  0000 C CNN
+F 2 "footprint_library:L_HQ40_1.2_112" H 2700 800 50  0001 C CNN
+F 3 "" H 2700 800 50  0000 C CNN
+	1    2700 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 57FB6945
+P 2250 1000
+F 0 "C1" H 2275 1100 50  0000 L CNN
+F 1 "15uF" H 2275 900 50  0000 L CNN
+F 2 "footprint_library:C_MKTA_15_160" H 2288 850 50  0001 C CNN
+F 3 "" H 2250 1000 50  0000 C CNN
+	1    2250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 57FB696F
+P 3100 1000
+F 0 "C2" H 2950 1100 50  0000 L CNN
+F 1 "8.2uF" H 2850 900 50  0000 L CNN
+F 2 "footprint_library:C_MKTA_8.2_250" H 3138 850 50  0001 C CNN
+F 3 "" H 3100 1000 50  0000 C CNN
+	1    3100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 57FB6A07
+P 1550 2000
+F 0 "R1" V 1630 2000 50  0000 C CNN
+F 1 "18Ω" V 1450 2000 50  0000 C CNN
+F 2 "footprint_library:R_WAX20_18_5" V 1480 2000 50  0001 C CNN
+F 3 "" H 1550 2000 50  0000 C CNN
+	1    1550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 57FB6AA5
+P 2900 1500
+F 0 "R2" V 2950 1300 50  0000 C CNN
+F 1 "39Ω" V 2850 1300 50  0000 C CNN
+F 2 "footprint_library:R_WAX10_39_5" V 2830 1500 50  0001 C CNN
+F 3 "" H 2900 1500 50  0000 C CNN
+	1    2900 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR L5
+U 1 1 57FB6B04
+P 2900 1700
+F 0 "L5" V 2850 1700 50  0000 C CNN
+F 1 "0.82mH" V 3000 1700 50  0000 C CNN
+F 2 "footprint_library:L_LU55_082_100" H 2900 1700 50  0001 C CNN
+F 3 "" H 2900 1700 50  0000 C CNN
+	1    2900 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 57FB6B47
+P 2900 2000
+F 0 "C5" V 2950 2050 50  0000 L CNN
+F 1 "15uF" V 2850 2050 50  0000 L CNN
+F 2 "footprint_library:C_MKTA_15_160" H 2938 1850 50  0001 C CNN
+F 3 "" H 2900 2000 50  0000 C CNN
+	1    2900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L4
+U 1 1 57FB6BB6
+P 2600 2400
+F 0 "L4" V 2550 2400 50  0000 C CNN
+F 1 "0.56mH" V 2700 2400 50  0000 C CNN
+F 2 "footprint_library:L_LU62_056_140" H 2600 2400 50  0001 C CNN
+F 3 "" H 2600 2400 50  0000 C CNN
+	1    2600 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 57FB6BF9
+P 2150 2000
+F 0 "C4" V 2200 2050 50  0000 L CNN
+F 1 "12uF" V 2100 2050 50  0000 L CNN
+F 2 "footprint_library:C_MKTA_12_100" H 2188 1850 50  0001 C CNN
+F 3 "" H 2150 2000 50  0000 C CNN
+	1    2150 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C3
+U 1 1 57FB6C30
+P 1550 1400
+F 0 "C3" V 1600 1250 50  0000 L CNN
+F 1 "0.68uF" V 1500 1100 50  0000 L CNN
+F 2 "footprint_library:C_MKTA_0.68_100" H 1588 1250 50  0001 C CNN
+F 3 "" H 1550 1400 50  0000 C CNN
+	1    1550 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L3
+U 1 1 57FB6C7D
+P 2150 1400
+F 0 "L3" V 2100 1400 50  0000 C CNN
+F 1 "0.15mH" V 2250 1400 50  0000 C CNN
+F 2 "footprint_library:L_LUT32_015_10" H 2150 1400 50  0001 C CNN
+F 3 "" H 2150 1400 50  0000 C CNN
+	1    2150 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 800  2400 800 
+Wire Wire Line
+	2250 800  2250 850 
+Connection ~ 2250 800 
+Wire Wire Line
+	3000 800  3300 800 
+Wire Wire Line
+	3100 800  3100 850 
+Wire Wire Line
+	3100 1200 3100 1150
+Wire Wire Line
+	2250 1200 2250 1150
+Connection ~ 2250 1200
+Wire Wire Line
+	3300 800  3300 950 
+Connection ~ 3100 800 
+Wire Wire Line
+	3300 1200 3300 1050
+Connection ~ 3100 1200
+Wire Wire Line
+	1400 1400 1400 2200
+Wire Wire Line
+	1700 1400 1850 1400
+Wire Wire Line
+	2450 1400 3200 1400
+Wire Wire Line
+	3200 1400 3200 2350
+Connection ~ 3200 1700
+Wire Wire Line
+	3050 2000 3200 2000
+Connection ~ 3200 2000
+Wire Wire Line
+	3050 1500 3200 1500
+Connection ~ 3200 1500
+Wire Wire Line
+	2750 1500 2600 1500
+Wire Wire Line
+	2600 1500 2600 2100
+Wire Wire Line
+	2300 2000 2750 2000
+Connection ~ 2600 1700
+Connection ~ 2600 2000
+Wire Wire Line
+	2000 2000 1700 2000
+Connection ~ 1400 2000
+Wire Wire Line
+	1400 2700 3200 2700
+Wire Wire Line
+	3200 2700 3200 2450
+Wire Wire Line
+	1400 2700 1400 2450
+Connection ~ 2600 2700
+Wire Wire Line
+	1000 1550 1100 1550
+Wire Wire Line
+	1200 1650 1000 1650
+Wire Wire Line
+	1100 800  1500 800 
+Wire Wire Line
+	1200 1200 3300 1200
+Connection ~ 1200 1650
+Connection ~ 1100 1550
+Wire Wire Line
+	1400 2200 1100 2200
+Connection ~ 1100 2200
+Wire Wire Line
+	1400 2450 1200 2450
+Connection ~ 1200 2450
+Connection ~ 1100 800 
+Connection ~ 1200 1200
+Wire Wire Line
+	1100 2200 1100 800 
+Wire Wire Line
+	1200 2450 1200 1200
+$Comp
+L TEST_1P W3_1
+U 1 1 57FBCDA4
+P 3200 2350
+F 0 "W3_1" V 3100 2500 50  0000 C CNN
+F 1 "OUT_HIGH-PASS+" V 3200 2900 50  0000 C CNN
+F 2 "Connect:1pin" H 3400 2350 50  0001 C CNN
+F 3 "" H 3400 2350 50  0000 C CNN
+	1    3200 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P W3_2
+U 1 1 57FBCE29
+P 3200 2450
+F 0 "W3_2" V 3300 2600 50  0000 C CNN
+F 1 "OUT_HIGH-PASS-" V 3200 3000 50  0000 C CNN
+F 2 "Connect:1pin" H 3400 2450 50  0001 C CNN
+F 3 "" H 3400 2450 50  0000 C CNN
+	1    3200 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P W2_1
+U 1 1 57FBD12D
+P 3300 950
+F 0 "W2_1" V 3200 1100 50  0000 C CNN
+F 1 "OUT_LOW-PASS+" V 3300 1500 50  0000 C CNN
+F 2 "Connect:1pin" H 3500 950 50  0001 C CNN
+F 3 "" H 3500 950 50  0000 C CNN
+	1    3300 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P W2_2
+U 1 1 57FBD176
+P 3300 1050
+F 0 "W2_2" V 3400 1200 50  0000 C CNN
+F 1 "OUT_LOW-PASS-" V 3300 1600 50  0000 C CNN
+F 2 "Connect:1pin" H 3500 1050 50  0001 C CNN
+F 3 "" H 3500 1050 50  0000 C CNN
+	1    3300 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P W1_1
+U 1 1 57FBD1B5
+P 1000 1550
+F 0 "W1_1" V 1100 1650 50  0000 C CNN
+F 1 "IN+" V 1000 1800 50  0000 C CNN
+F 2 "Connect:1pin" H 1200 1550 50  0001 C CNN
+F 3 "" H 1200 1550 50  0000 C CNN
+	1    1000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST_1P W1_2
+U 1 1 57FBD212
+P 1000 1650
+F 0 "W1_2" V 900 1750 50  0000 C CNN
+F 1 "IN-" V 1000 1900 50  0000 C CNN
+F 2 "Connect:1pin" H 1200 1650 50  0001 C CNN
+F 3 "" H 1200 1650 50  0000 C CNN
+	1    1000 1650
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

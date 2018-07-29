@@ -1,0 +1,275 @@
+(pcb /Users/nope/ownCloud/KiCad/KiCad2/frequenzweiche_ITA.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.4-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  20000 -170000  20000 -20000  220000 -20000  220000 -170000
+            20000 -170000  20000 -170000)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 1000)
+      (clearance 1000.1)
+      (clearance 1000.1 (type default_smd))
+      (clearance 250 (type smd_smd))
+    )
+  )
+  (placement
+    (component footprint_library:C_MKTA_15_160
+      (place C1 80000 -23000 front 270 (PN 15uF))
+      (place C5 135000 -110000 front 270 (PN 15uF))
+    )
+    (component footprint_library:C_MKTA_8.2_250
+      (place C2 141400 -35000 front 0 (PN 8.2uF))
+    )
+    (component footprint_library:C_MKTA_0.68_100
+      (place C3 25000 -101000 front 0 (PN 0.68uF))
+    )
+    (component footprint_library:C_MKTA_12_100
+      (place C4 96400 -85000 front 0 (PN 12uF))
+    )
+    (component footprint_library:L_HQ43_3.3_095
+      (place L1 47000 -45000 front 90 (PN 3.3mH))
+    )
+    (component footprint_library:L_HQ40_1.2_112
+      (place L2 115000 -45000 front 0 (PN 1.2mH))
+    )
+    (component footprint_library:L_LUT32_015_10
+      (place L3 39000 -135000 front 270 (PN 0.15mH))
+    )
+    (component footprint_library:L_LU62_056_140
+      (place L4 171000 -89000 front 0 (PN 0.56mH))
+    )
+    (component footprint_library:L_LU55_082_100
+      (place L5 99000 -136000 front 270 (PN 0.82mH))
+    )
+    (component footprint_library:R_WAX20_18_5
+      (place R1 92600 -85000 front 180 (PN 18Ω))
+    )
+    (component footprint_library:R_WAX10_39_5
+      (place R2 65000 -163600 front 90 (PN 39Ω))
+    )
+    (component Connect:1pin
+      (place W1_1 25000 -65000 front 0 (PN IN+))
+      (place W1_2 25000 -75000 front 0 (PN "IN-"))
+      (place W2_1 210000 -60000 front 0 (PN "OUT_LOW-PASS+"))
+      (place W2_2 210000 -70000 front 0 (PN "OUT_LOW-PASS-"))
+      (place W3_1 210000 -120000 front 0 (PN "OUT_HIGH-PASS+"))
+      (place W3_2 210000 -110000 front 0 (PN "OUT_HIGH-PASS-"))
+    )
+  )
+  (library
+    (image footprint_library:C_MKTA_15_160
+      (outline (path signal 50  -1400 8700  54000 8700))
+      (outline (path signal 50  -1400 -8700  -1400 8700))
+      (outline (path signal 50  54000 8700  54000 -8700))
+      (outline (path signal 50  -1400 -8700  54000 -8700))
+      (outline (path signal 150  3600 0  1600 0))
+      (outline (path signal 150  49000 0  51000 0))
+      (outline (path signal 150  3810 8500  3810 -8500))
+      (outline (path signal 150  3810 -8500  48810 -8500))
+      (outline (path signal 150  48810 -8500  48810 8500))
+      (outline (path signal 150  48810 8500  3810 8500))
+      (pin Round[A]Pad_2301.24_um 1 0 0)
+      (pin Round[A]Pad_2301.24_um 2 52600 0)
+    )
+    (image footprint_library:C_MKTA_8.2_250
+      (outline (path signal 50  -1400 10200  55000 10200))
+      (outline (path signal 50  -1400 -10200  -1400 10200))
+      (outline (path signal 50  55000 10200  55000 -10200))
+      (outline (path signal 50  -1400 -10200  55000 -10200))
+      (outline (path signal 150  3600 0  1600 0))
+      (outline (path signal 150  50000 0  52000 0))
+      (outline (path signal 150  3810 10000  3810 -10000))
+      (outline (path signal 150  3810 -10000  49810 -10000))
+      (outline (path signal 150  49810 -10000  49810 10000))
+      (outline (path signal 150  49810 10000  3810 10000))
+      (pin Round[A]Pad_2301.24_um 1 0 0)
+      (pin Round[A]Pad_2301.24_um 2 53600 0)
+    )
+    (image footprint_library:C_MKTA_0.68_100
+      (outline (path signal 50  -1400 4700  28000 4700))
+      (outline (path signal 50  -1400 -4700  -1400 4700))
+      (outline (path signal 50  28000 4700  28000 -4700))
+      (outline (path signal 50  -1400 -4700  28000 -4700))
+      (outline (path signal 150  3600 0  1600 0))
+      (outline (path signal 150  23000 0  25000 0))
+      (outline (path signal 150  3810 4500  3810 -4500))
+      (outline (path signal 150  3810 -4500  22810 -4500))
+      (outline (path signal 150  22810 -4500  22810 4500))
+      (outline (path signal 150  22810 4500  3810 4500))
+      (pin Round[A]Pad_2301.24_um 1 0 0)
+      (pin Round[A]Pad_2301.24_um 2 26600 0)
+    )
+    (image footprint_library:C_MKTA_12_100
+      (outline (path signal 50  -1400 10700  35000 10700))
+      (outline (path signal 50  -1400 -10700  -1400 10700))
+      (outline (path signal 50  35000 10700  35000 -10700))
+      (outline (path signal 50  -1400 -10700  35000 -10700))
+      (outline (path signal 150  3600 0  1600 0))
+      (outline (path signal 150  30000 0  32000 0))
+      (outline (path signal 150  3810 10500  3810 -10500))
+      (outline (path signal 150  3810 -10500  29810 -10500))
+      (outline (path signal 150  29810 -10500  29810 10500))
+      (outline (path signal 150  29810 10500  3810 10500))
+      (pin Round[A]Pad_2301.24_um 1 0 0)
+      (pin Round[A]Pad_2301.24_um 2 33600 0)
+    )
+    (image footprint_library:L_HQ43_3.3_095
+      (outline (path signal 150  21500 0  20447.7 -6643.86  17393.9 -12637.4  12637.4 -17393.9
+            6643.86 -20447.7  0 -21500  -6643.86 -20447.7  -12637.4 -17393.9
+            -17393.9 -12637.4  -20447.7 -6643.86  -21500 0  -20447.7 6643.86
+            -17393.9 12637.4  -12637.4 17393.9  -6643.86 20447.7  0 21500
+            6643.86 20447.7  12637.4 17393.9  17393.9 12637.4  20447.7 6643.86))
+      (pin Round[T]Pad_5000_um 1 22000 0)
+      (pin Round[T]Pad_5000_um 2 -22000 0)
+    )
+    (image footprint_library:L_HQ40_1.2_112
+      (outline (path signal 150  20000 0  19021.1 -6180.34  16180.3 -11755.7  11755.7 -16180.3
+            6180.34 -19021.1  0 -20000  -6180.34 -19021.1  -11755.7 -16180.3
+            -16180.3 -11755.7  -19021.1 -6180.34  -20000 0  -19021.1 6180.34
+            -16180.3 11755.7  -11755.7 16180.3  -6180.34 19021.1  0 20000
+            6180.34 19021.1  11755.7 16180.3  16180.3 11755.7  19021.1 6180.34))
+      (pin Round[T]Pad_5000_um 1 20000 0)
+      (pin Round[T]Pad_5000_um 2 -20000 0)
+    )
+    (image footprint_library:L_LUT32_015_10
+      (outline (path signal 150  16000 0  15216.9 -4944.27  12944.3 -9404.56  9404.56 -12944.3
+            4944.27 -15216.9  0 -16000  -4944.27 -15216.9  -9404.56 -12944.3
+            -12944.3 -9404.56  -15216.9 -4944.27  -16000 0  -15216.9 4944.27
+            -12944.3 9404.56  -9404.56 12944.3  -4944.27 15216.9  0 16000
+            4944.27 15216.9  9404.56 12944.3  12944.3 9404.56  15216.9 4944.27))
+      (pin Round[T]Pad_5000_um 1 16000 0)
+      (pin Round[T]Pad_5000_um 2 -16000 0)
+    )
+    (image footprint_library:L_LU62_056_140
+      (outline (path signal 150  31000 0  29482.8 -9579.53  25079.5 -18221.3  18221.3 -25079.5
+            9579.53 -29482.8  0 -31000  -9579.53 -29482.8  -18221.3 -25079.5
+            -25079.5 -18221.3  -29482.8 -9579.53  -31000 0  -29482.8 9579.53
+            -25079.5 18221.3  -18221.3 25079.5  -9579.53 29482.8  0 31000
+            9579.53 29482.8  18221.3 25079.5  25079.5 18221.3  29482.8 9579.53))
+      (pin Round[T]Pad_5000_um 1 31000 0)
+      (pin Round[T]Pad_5000_um 2 -31000 0)
+    )
+    (image footprint_library:L_LU55_082_100
+      (outline (path signal 150  22500 0  21398.8 -6952.88  18202.9 -13225.2  13225.2 -18202.9
+            6952.88 -21398.8  0 -22500  -6952.88 -21398.8  -13225.2 -18202.9
+            -18202.9 -13225.2  -21398.8 -6952.88  -22500 0  -21398.8 6952.88
+            -18202.9 13225.2  -13225.2 18202.9  -6952.88 21398.8  0 22500
+            6952.88 21398.8  13225.2 18202.9  18202.9 13225.2  21398.8 6952.88))
+      (pin Round[T]Pad_5000_um 1 23000 0)
+      (pin Round[T]Pad_5000_um 2 -23000 0)
+    )
+    (image footprint_library:R_WAX20_18_5
+      (outline (path signal 50  -1400 7200  69000 7200))
+      (outline (path signal 50  -1400 -7200  -1400 7200))
+      (outline (path signal 50  69000 7200  69000 -7200))
+      (outline (path signal 50  -1400 -7200  69000 -7200))
+      (outline (path signal 150  3600 0  1600 0))
+      (outline (path signal 150  64000 0  66000 0))
+      (outline (path signal 150  3810 7000  3810 -7000))
+      (outline (path signal 150  3810 -7000  63810 -7000))
+      (outline (path signal 150  63810 -7000  63810 7000))
+      (outline (path signal 150  63810 7000  3810 7000))
+      (pin Round[A]Pad_2301.24_um 1 0 0)
+      (pin Round[A]Pad_2301.24_um 2 67600 0)
+    )
+    (image footprint_library:R_WAX10_39_5
+      (outline (path signal 50  -1400 5200  57000 5200))
+      (outline (path signal 50  -1400 -5200  -1400 5200))
+      (outline (path signal 50  57000 5200  57000 -5200))
+      (outline (path signal 50  -1400 -5200  57000 -5200))
+      (outline (path signal 150  3600 0  1600 0))
+      (outline (path signal 150  52000 0  54000 0))
+      (outline (path signal 150  3810 5000  3810 -5000))
+      (outline (path signal 150  3810 -5000  51810 -5000))
+      (outline (path signal 150  51810 -5000  51810 5000))
+      (outline (path signal 150  51810 5000  3810 5000))
+      (pin Round[A]Pad_2301.24_um 1 0 0)
+      (pin Round[A]Pad_2301.24_um 2 55600 0)
+    )
+    (image Connect:1pin
+      (outline (path signal 150  2286 0  2174.11 -706.413  1849.41 -1343.68  1343.68 -1849.41
+            706.413 -2174.11  0 -2286  -706.413 -2174.11  -1343.68 -1849.41
+            -1849.41 -1343.68  -2174.11 -706.413  -2286 0  -2174.11 706.413
+            -1849.41 1343.68  -1343.68 1849.41  -706.413 2174.11  0 2286
+            706.413 2174.11  1343.68 1849.41  1849.41 1343.68  2174.11 706.413))
+      (pin Round[A]Pad_4064_um 1 0 0)
+    )
+    (padstack Round[A]Pad_2301.24_um
+      (shape (circle F.Cu 2301.24))
+      (shape (circle B.Cu 2301.24))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4064_um
+      (shape (circle F.Cu 4064))
+      (shape (circle B.Cu 4064))
+      (attach off)
+    )
+    (padstack Round[T]Pad_5000_um
+      (shape (circle F.Cu 5000))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 L1-1 L2-2)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins C1-2 C2-2 L4-1 W1_2-1 W2_2-1 W3_2-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 L2-1 W2_1-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 L1-2 R1-2 W1_1-1)
+    )
+    (net "Net-(C3-Pad2)"
+      (pins C3-2 L3-2)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins C4-1 R1-1)
+    )
+    (net "Net-(C4-Pad2)"
+      (pins C4-2 C5-1 L4-2 L5-2 R2-2)
+    )
+    (net "Net-(C5-Pad2)"
+      (pins C5-2 L3-1 L5-1 R2-1 W3_1-1)
+    )
+    (class kicad_default "" "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)"
+      "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(C4-Pad1)" "Net-(C4-Pad2)" "Net-(C5-Pad2)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 1000.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
